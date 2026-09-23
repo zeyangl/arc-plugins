@@ -1,0 +1,56 @@
+schema = 1
+
+[[plugins]]
+id = "git"
+name = "Git"
+description = "View your workspace's branch, changed files, and diffs."
+version = "0.1.1"
+target = "aarch64-apple-darwin"
+abi_revision = 2
+wire_revision = 9
+url = "https://raw.githubusercontent.com/zeyangl/arc-plugins/7211cd827b24aec997c006b0a36936d20d072d1a/git/git-0.1.1-aarch64-apple-darwin.zip"
+sha256 = "d0d4ae07ede7348066875ec737d1ae9dc31eb6afc9cc3a82b6fd408579800624"
+
+[[plugins]]
+id = "history"
+name = "History"
+description = "Browse session history, inspect tool calls, and follow child sessions."
+version = "0.1.1"
+target = "aarch64-apple-darwin"
+abi_revision = 2
+wire_revision = 9
+url = "https://raw.githubusercontent.com/zeyangl/arc-plugins/7211cd827b24aec997c006b0a36936d20d072d1a/history/history-0.1.1-aarch64-apple-darwin.zip"
+sha256 = "edd64320cd21c7676b04f6bba593f534aff8ffbb5a123046b8426fd77744c907"
+
+[[plugins]]
+id = "provider-status"
+name = "Quota"
+description = "Monitor quota, balances, and reset times for supported model providers."
+version = "0.1.1"
+target = "aarch64-apple-darwin"
+abi_revision = 2
+wire_revision = 9
+url = "https://raw.githubusercontent.com/zeyangl/arc-plugins/7211cd827b24aec997c006b0a36936d20d072d1a/provider-status/provider-status-0.1.1-aarch64-apple-darwin.zip"
+sha256 = "20b730fb4fb08716633c915e9f171ed3d2a03fa179ac69ccfa51b9d1be2f6b3b"
+
+[[plugins]]
+id = "matrix"
+name = "Matrix"
+description = "Display animated code rain behind your workspace."
+version = "0.1.1"
+target = "aarch64-apple-darwin"
+abi_revision = 2
+wire_revision = 9
+url = "https://raw.githubusercontent.com/zeyangl/arc-plugins/7211cd827b24aec997c006b0a36936d20d072d1a/matrix/matrix-0.1.1-aarch64-apple-darwin.zip"
+sha256 = "dbecc9451dd121b1f8fdab5f17f0ed305815c491c288f8f52b953c79b8d9b592"
+
+[[plugins]]
+id = "blackhole"
+name = "Black Hole"
+description = "Display an animated black hole with a glowing disk and lensed stars."
+version = "0.1.1"
+target = "aarch64-apple-darwin"
+abi_revision = 2
+wire_revision = 9
+url = "https://raw.githubusercontent.com/zeyangl/arc-plugins/7211cd827b24aec997c006b0a36936d20d072d1a/blackhole/blackhole-0.1.1-aarch64-apple-darwin.zip"
+sha256 = "6db118802fc204553510ad615141a490a0f010a836d13607705ec62cacc66796"
