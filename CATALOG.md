@@ -53,10 +53,28 @@ commit; branch-based download URLs are rejected. The top-level catalog follows
 `main`, while each package URL pins immutable bytes.
 
 Use the actual version, target, and SDK revisions from the build. `id`, `name`,
-and `version` must match the package manifest and compiled descriptor. `sha256`
-is the ZIP's 64-character hexadecimal SHA-256 digest. Copy `description` from
+and `version` must match the package manifest; the English name must match the
+compiled descriptor. `sha256` is the ZIP's 64-character hexadecimal SHA-256 digest.
+Copy `description` from
 the built `plugin.toml`; its source is `package.metadata.arc-plugin.description`
 in the plugin's Cargo.toml.
+
+Names and descriptions can be plain strings or localized tables:
+
+```toml
+name = { en = "History", zh-Hans = "历史" }
+description = { en = "View workspace changes.", zh-Hans = "查看工作区更改。" }
+```
+
+The same format works in Cargo metadata, `plugin.toml`, and the catalog. Copy both
+fields from the package into its catalog entry. Arc's language setting selects
+the text immediately in Installed, Browse, pane titles, the rail, and the
+background picker; search matches either language. `en` is required; omitted
+`zh-Hans` falls back to English.
+Localized values must be nonempty, with at most 128 UTF-8 bytes per name and
+4096 per description in each language. IDs and compiled English names stay stable.
+Plain strings remain supported. Localized tables require an updated Arc host;
+older hosts only accept strings, including in catalogs.
 
 Archives contain exactly two regular files at the root: `plugin.toml` and the
 library named in it. Use ZIP's stored or deflate compression. Arc checks the

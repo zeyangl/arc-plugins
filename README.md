@@ -1,23 +1,42 @@
 # Arc plugins
 
-Official prebuilt plugins for Arc. Source is maintained in `zeyangl/arc`.
+Official prebuilt plugins for Arc. Requires **Arc 0.6.2 or newer** for localized
+plugin titles and descriptions. Source is maintained in `zeyangl/arc`.
 
-No plugin packages are currently listed. The previous `0.1.1` releases have
-been retired, and the catalog is empty until new packages are published.
-Existing local installations are unaffected. Retired files remain in Git history.
+| Plugin | 中文 | Version |
+| --- | --- | --- |
+| [Git](git/) | Git | 0.1.3 |
+| [History](history/) | 历史 | 0.1.3 |
+| [Quota](provider-status/) | 配额 | 0.1.3 |
+| [Matrix](matrix/) | 代码雨 | 0.1.3 |
+| [Black Hole](blackhole/) | 黑洞 | 0.1.3 |
+
+## Platforms
+
+- macOS Apple Silicon (`aarch64-apple-darwin`): native tests and runtime validation passed.
+- Windows x64 (`x86_64-pc-windows-msvc`): unsigned cross-builds, not run or tested on Windows.
+  Install the [Microsoft Visual C++ v14 Redistributable (x64)](https://aka.ms/vc14/vc_redist.x64.exe) if needed.
+
+All packages use plugin ABI 2 and wire revision 9. Windows runtime verification
+was explicitly omitted for this release. Archive integrity and SHA-256 checks
+were performed for both platforms.
 
 ## Install
 
-When packages are available, open **Plugins → Browse** in Arc, refresh the
-catalog, and choose **Install**. Restart Arc after installation or removal;
-session `/restart` does not reload native plugins.
+Upgrade Arc first. Open **Plugins → Browse**, refresh the catalog, and install.
+To update an already installed plugin, remove it and install its current version.
+Restart Arc to load changed libraries; session `/restart` does not reload plugins.
+Select Matrix or Black Hole in Settings → Background.
 
-## Repository layout
+For manual installation, download the ZIP and matching `.sha256` file for your
+platform, verify the checksum, extract the two files, then run:
 
-- `catalog.toml`: Arc's discovery index, read from `main`.
-- `<id>/<id>-<version>-<target>.zip`: the plugin package.
-- `<id>/<id>-<version>-<target>.sha256`: its SHA-256 checksum.
-- `<id>/CHANGELOG.md`: release notes and source revisions.
+```sh
+arc plugin install /path/to/extracted/package
+```
 
-Package URLs pin a full Git commit SHA. New builds receive new versions.
-See [CATALOG.md](CATALOG.md) for the schema and publication procedure.
+The ZIP contains `plugin.toml` and one native library. The catalog pins immutable
+Git commits. Earlier retired packages remain in Git history; installed copies
+are unaffected by catalog changes.
+
+See [CATALOG.md](CATALOG.md) for the format and publication procedure.
