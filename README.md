@@ -42,3 +42,21 @@ Git commits. Earlier retired packages remain in Git history; installed copies
 are unaffected by catalog changes.
 
 See [CATALOG.md](CATALOG.md) for the format and publication procedure.
+
+
+## Author plugins
+
+Arc agents should call `PluginDoc` in the running Arc build. It provides a local
+SDK and working starters plus an immutable reference matching that build. Plugins
+can be authored in any workspace without an Arc development checkout.
+
+The [complete Arc 0.7.0 authoring reference](authoring/0b16da79e2397add809c5dc2a579daef1c5f08eee80b03a132c1f65f2c0c243c/INDEX.md)
+includes the native ABI, JSON wire format, UI nodes, host services, background
+rendering, examples, and matching SDK sources. Its SDK uses ABI 2 and wire 14.
+Use the commit-pinned URL supplied by PluginDoc when building for another Arc
+version; do not infer compatibility from the repository's newest documentation.
+
+Reference sources live in `zeyangl/arc/crates/plugin/authoring/` and are exported
+by `scripts/plugin-docs.py`. Each `authoring/<sha256>/` directory is an immutable
+snapshot with a checksummed `reference.json`; keep older snapshots for older
+Arc builds. PluginDoc verifies and caches the reference for later offline use.
