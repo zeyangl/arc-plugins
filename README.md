@@ -46,17 +46,17 @@ See [CATALOG.md](CATALOG.md) for the format and publication procedure.
 
 ## Author plugins
 
-Arc agents should call `PluginDoc` in the running Arc build. It provides a local
-SDK and working starters plus an immutable reference matching that build. Plugins
-can be authored in any workspace without an Arc development checkout.
+Arc agents should call `PluginDoc` (or users can run `/plugindoc`) in Arc.
+It supplies core instructions, a bundled SDK and standalone starters matching the
+running binary, and the full guide's commit-pinned URL and verified local cache.
 
-The [complete Arc 0.7.0 authoring reference](authoring/0b16da79e2397add809c5dc2a579daef1c5f08eee80b03a132c1f65f2c0c243c/INDEX.md)
-includes the native ABI, JSON wire format, UI nodes, host services, background
-rendering, examples, and matching SDK sources. Its SDK uses ABI 2 and wire 14.
-Use the commit-pinned URL supplied by PluginDoc when building for another Arc
-version; do not infer compatibility from the repository's newest documentation.
+Read the [complete authoring guide](authoring/GUIDE.md) for the native ABI, JSON
+wire format, UI nodes, host services, background rendering, and examples. Create
+a project with `arc plugin new my-plugin`, then use `arc plugin build --install`.
+No Arc development checkout is needed to author plugins.
 
-Reference sources live in `zeyangl/arc/crates/plugin/authoring/` and are exported
-by `scripts/plugin-docs.py`. Each `authoring/<sha256>/` directory is an immutable
-snapshot with a checksummed `reference.json`; keep older snapshots for older
-Arc builds. PluginDoc verifies and caches the reference for later offline use.
+The guide is maintained in `zeyangl/arc/crates/plugin/authoring/GUIDE.md` and
+published with the native `arc plugin docs prepare`, `pin`, and `check` commands.
+Each Arc build pins a publication commit and verifies the guide's SHA-256. SDK
+sources remain bundled in Arc; the guide cache contains only Markdown. Use the
+reference returned by your Arc build when targeting that version.
