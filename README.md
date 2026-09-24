@@ -1,15 +1,16 @@
 # Arc plugins
 
-Official prebuilt plugins for Arc. Requires **Arc 0.6.2 or newer** for localized
-plugin titles and descriptions. Source is maintained in `zeyangl/arc`.
+Official prebuilt plugins for Arc. The current versions require **Arc 0.7.0 or newer**;
+the 0.1.3 packages stay published for Arc 0.6.2 and earlier. Source is maintained in
+`zeyangl/arc`.
 
 | Plugin | 中文 | Version |
 | --- | --- | --- |
-| [Git](git/) | Git | 0.1.3 |
-| [History](history/) | 历史 | 0.1.3 |
-| [Quota](provider-status/) | 配额 | 0.1.3 |
-| [Matrix](matrix/) | 代码雨 | 0.1.3 |
-| [Black Hole](blackhole/) | 黑洞 | 0.1.3 |
+| [Git](git/) | Git | 0.1.12 |
+| [History](history/) | 历史 | 0.1.9 |
+| [Quota](provider-status/) | 配额 | 0.1.9 |
+| [Matrix](matrix/) | 代码雨 | 0.1.8 |
+| [Black Hole](blackhole/) | 黑洞 | 0.1.8 |
 
 ## Platforms
 
@@ -17,9 +18,10 @@ plugin titles and descriptions. Source is maintained in `zeyangl/arc`.
 - Windows x64 (`x86_64-pc-windows-msvc`): unsigned cross-builds, not run or tested on Windows.
   Install the [Microsoft Visual C++ v14 Redistributable (x64)](https://aka.ms/vc14/vc_redist.x64.exe) if needed.
 
-All packages use plugin ABI 2 and wire revision 9. Windows runtime verification
-was explicitly omitted for this release. Archive integrity and SHA-256 checks
-were performed for both platforms.
+Current packages use plugin ABI 2 and wire revision 14, so they load only in Arc 0.7.0
+or newer. The 0.1.3 packages use wire revision 9 and remain available for Arc 0.6.2 and
+earlier. Windows runtime verification was explicitly omitted for this release. Archive
+integrity and SHA-256 checks were performed for both platforms.
 
 ## Install
 

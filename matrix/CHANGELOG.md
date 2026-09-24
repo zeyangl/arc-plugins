@@ -1,5 +1,13 @@
 # matrix
 
+## 0.1.8
+
+- Rebuilt for plugin wire revision 14; requires Arc 0.7.0 or newer. No behavior change.
+- macOS Apple Silicon: packaged-library runtime validation passed.
+- Windows x64: unsigned cross-build; no Windows runtime verification for this release.
+- ABI 2; wire revision 14.
+- Source: `05042ff74b87e5e2cb282204bf4ee72ecf90ebba` (`v0.7.0`) in `zeyangl/arc`.
+
 ## 0.1.3
 
 - English and Simplified Chinese titles and descriptions; requires Arc 0.6.2 or newer.
