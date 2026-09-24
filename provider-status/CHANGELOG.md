@@ -1,5 +1,13 @@
 # provider-status
 
+## 0.1.10
+
+- Generate the native descriptor and package identity from Cargo metadata with the shared SDK build helper.
+- Compatible with Arc 0.7.0 and newer; ABI 2, wire revision 14 is unchanged.
+- macOS Apple Silicon: plugin tests and native host verification passed.
+- Windows x64: unsigned cross-build; Windows runtime verification was not performed.
+- Source: `4112888cef4af87e3e2b4c96eb19bbf6bef46865` (`v0.7.1`) in `zeyangl/arc`.
+
 ## 0.1.9
 
 - Plan names, meter labels, and meter rows render in full now that per-field text caps are gone; the meter count follows the node budget.

@@ -1,5 +1,13 @@
 # matrix
 
+## 0.1.9
+
+- Generate the native descriptor and package identity from Cargo metadata with the shared SDK build helper.
+- Compatible with Arc 0.7.0 and newer; ABI 2, wire revision 14 is unchanged.
+- macOS Apple Silicon: plugin tests and native host verification passed.
+- Windows x64: unsigned cross-build; Windows runtime verification was not performed.
+- Source: `4112888cef4af87e3e2b4c96eb19bbf6bef46865` (`v0.7.1`) in `zeyangl/arc`.
+
 ## 0.1.8
 
 - Rebuilt for plugin wire revision 14; requires Arc 0.7.0 or newer. No behavior change.

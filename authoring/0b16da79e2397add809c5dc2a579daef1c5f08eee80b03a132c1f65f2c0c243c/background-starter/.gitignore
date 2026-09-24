@@ -1,4 +1,0 @@
-/target/
-/dist/*.dylib
-/dist/*.so
-/dist/*.dll
