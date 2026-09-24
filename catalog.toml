@@ -339,3 +339,139 @@ zh-Hans = "黑洞"
 [plugins.description]
 en = "Display an animated black hole with a glowing disk and lensed stars."
 zh-Hans = "显示带有发光吸积盘和引力透镜星空的动态黑洞。"
+
+[[plugins]]
+url = "https://raw.githubusercontent.com/zeyangl/arc-plugins/39e1b533218c1fd57af7df99043ed9aaefd22dcb/history/history-0.1.10-aarch64-apple-darwin.zip"
+sha256 = "5ba89db2e6c09796a5f0fe44c6b20723aaee00f2756cc0f6902a3451ee52e3fe"
+abi_revision = 2
+id = "history"
+target = "aarch64-apple-darwin"
+version = "0.1.10"
+wire_revision = 14
+
+[plugins.description]
+en = "Browse session history, inspect tool calls, and follow child sessions."
+zh-Hans = "浏览会话历史、查看工具调用并追踪子会话。"
+
+[plugins.name]
+en = "History"
+zh-Hans = "历史"
+
+[[plugins]]
+url = "https://raw.githubusercontent.com/zeyangl/arc-plugins/39e1b533218c1fd57af7df99043ed9aaefd22dcb/history/history-0.1.10-x86_64-pc-windows-msvc.zip"
+sha256 = "8af1749712e3b6c90ad89f0033ffb08e306be5318bdfaee52e7bca1c423f1490"
+abi_revision = 2
+id = "history"
+target = "x86_64-pc-windows-msvc"
+version = "0.1.10"
+wire_revision = 14
+
+[plugins.description]
+en = "Browse session history, inspect tool calls, and follow child sessions."
+zh-Hans = "浏览会话历史、查看工具调用并追踪子会话。"
+
+[plugins.name]
+en = "History"
+zh-Hans = "历史"
+
+[[plugins]]
+url = "https://raw.githubusercontent.com/zeyangl/arc-plugins/39e1b533218c1fd57af7df99043ed9aaefd22dcb/provider-status/provider-status-0.1.10-aarch64-apple-darwin.zip"
+sha256 = "b9b285f87dc792b9974bd3e23f2a4c96624e2fcc1fb80f91be538349e77e52de"
+abi_revision = 2
+id = "provider-status"
+target = "aarch64-apple-darwin"
+version = "0.1.10"
+wire_revision = 14
+
+[plugins.description]
+en = "Monitor quota, balances, and reset times for supported model providers."
+zh-Hans = "监控受支持模型服务商的配额、余额和重置时间。"
+
+[plugins.name]
+en = "Quota"
+zh-Hans = "配额"
+
+[[plugins]]
+url = "https://raw.githubusercontent.com/zeyangl/arc-plugins/39e1b533218c1fd57af7df99043ed9aaefd22dcb/provider-status/provider-status-0.1.10-x86_64-pc-windows-msvc.zip"
+sha256 = "a26b6d5171ebb277ef8b5d85307f8b93f704ab0f9d1cf54aa8bfffe6cc721c39"
+abi_revision = 2
+id = "provider-status"
+target = "x86_64-pc-windows-msvc"
+version = "0.1.10"
+wire_revision = 14
+
+[plugins.description]
+en = "Monitor quota, balances, and reset times for supported model providers."
+zh-Hans = "监控受支持模型服务商的配额、余额和重置时间。"
+
+[plugins.name]
+en = "Quota"
+zh-Hans = "配额"
+
+[[plugins]]
+url = "https://raw.githubusercontent.com/zeyangl/arc-plugins/39e1b533218c1fd57af7df99043ed9aaefd22dcb/matrix/matrix-0.1.9-aarch64-apple-darwin.zip"
+sha256 = "97a2a5ae50e5da92da1b0e39a14401f74a6dd3efd51ffc0b91f28bf8c18d4911"
+abi_revision = 2
+id = "matrix"
+target = "aarch64-apple-darwin"
+version = "0.1.9"
+wire_revision = 14
+
+[plugins.description]
+en = "Display animated code rain behind your workspace."
+zh-Hans = "在工作区背景中显示动态代码雨。"
+
+[plugins.name]
+en = "Matrix"
+zh-Hans = "代码雨"
+
+[[plugins]]
+url = "https://raw.githubusercontent.com/zeyangl/arc-plugins/39e1b533218c1fd57af7df99043ed9aaefd22dcb/matrix/matrix-0.1.9-x86_64-pc-windows-msvc.zip"
+sha256 = "41604c2d53394f13ee453b292c2dc5248cd11d02ecfc7cde07def76a92a98798"
+abi_revision = 2
+id = "matrix"
+target = "x86_64-pc-windows-msvc"
+version = "0.1.9"
+wire_revision = 14
+
+[plugins.description]
+en = "Display animated code rain behind your workspace."
+zh-Hans = "在工作区背景中显示动态代码雨。"
+
+[plugins.name]
+en = "Matrix"
+zh-Hans = "代码雨"
+
+[[plugins]]
+url = "https://raw.githubusercontent.com/zeyangl/arc-plugins/39e1b533218c1fd57af7df99043ed9aaefd22dcb/blackhole/blackhole-0.1.9-aarch64-apple-darwin.zip"
+sha256 = "0e6914f8c8d1b72b5985fba43678c8c74c000533b01e0dbc5b3f803e7cac8b10"
+abi_revision = 2
+id = "blackhole"
+target = "aarch64-apple-darwin"
+version = "0.1.9"
+wire_revision = 14
+
+[plugins.description]
+en = "Display an animated black hole with a glowing disk and lensed stars."
+zh-Hans = "显示带有发光吸积盘和引力透镜星空的动态黑洞。"
+
+[plugins.name]
+en = "Black Hole"
+zh-Hans = "黑洞"
+
+[[plugins]]
+url = "https://raw.githubusercontent.com/zeyangl/arc-plugins/39e1b533218c1fd57af7df99043ed9aaefd22dcb/blackhole/blackhole-0.1.9-x86_64-pc-windows-msvc.zip"
+sha256 = "17b3eb6c4f5e7b3d1ae220d4659bee21189e0815b3d76a0cbfb2c225e1bab44c"
+abi_revision = 2
+id = "blackhole"
+target = "x86_64-pc-windows-msvc"
+version = "0.1.9"
+wire_revision = 14
+
+[plugins.description]
+en = "Display an animated black hole with a glowing disk and lensed stars."
+zh-Hans = "显示带有发光吸积盘和引力透镜星空的动态黑洞。"
+
+[plugins.name]
+en = "Black Hole"
+zh-Hans = "黑洞"
