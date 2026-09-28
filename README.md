@@ -6,11 +6,11 @@ the 0.1.3 packages stay published for Arc 0.6.2 and earlier. Source is maintaine
 
 | Plugin | 中文 | Version |
 | --- | --- | --- |
-| [Git](git/) | Git | 0.1.12 |
-| [History](history/) | 历史 | 0.1.10 |
-| [Quota](provider-status/) | 配额 | 0.1.10 |
-| [Matrix](matrix/) | 代码雨 | 0.1.9 |
-| [Black Hole](blackhole/) | 黑洞 | 0.1.9 |
+| [Git](git/) | Git | 0.1.13 |
+| [History](history/) | 历史 | 0.1.11 |
+| [Quota](provider-status/) | 配额 | 0.1.11 |
+| [Matrix](matrix/) | 代码雨 | 0.1.10 |
+| [Black Hole](blackhole/) | 黑洞 | 0.1.10 |
 
 ## Platforms
 

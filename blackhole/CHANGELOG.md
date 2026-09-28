@@ -1,5 +1,13 @@
 # blackhole
 
+## 0.1.10
+
+- Use the shared SDK Cargo metadata parser and unified package/archive generation.
+- Compatible with Arc 0.7.0 and newer; ABI 2 and wire revision 14 are unchanged.
+- macOS Apple Silicon: native package loading verified; background packages also passed GPU rendering checks.
+- Windows x64: unsigned cross-build; architecture and native exports checked. Windows runtime verification was not performed.
+- Source: `aa3f17dd736e5796f32a449438182aaeb86457df` in `zeyangl/arc`.
+
 ## 0.1.9
 
 - Generate the native descriptor and package identity from Cargo metadata with the shared SDK build helper.

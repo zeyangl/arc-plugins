@@ -1,5 +1,14 @@
 # git
 
+## 0.1.13
+
+- Use the shared SDK Cargo metadata parser and unified package/archive generation.
+- Adopt Cargo-generated plugin identity and SDK view constructors without changing the diff workflow.
+- Compatible with Arc 0.7.0 and newer; ABI 2 and wire revision 14 are unchanged.
+- macOS Apple Silicon: native package loading verified; background packages also passed GPU rendering checks.
+- Windows x64: unsigned cross-build; architecture and native exports checked. Windows runtime verification was not performed.
+- Source: `aa3f17dd736e5796f32a449438182aaeb86457df` in `zeyangl/arc`.
+
 ## 0.1.12
 
 - Inline diff browsing: colored diffs with sticky file headers, paged file lists, compact metadata, and fixed footer controls.
