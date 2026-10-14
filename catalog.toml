@@ -645,3 +645,173 @@ url = "https://raw.githubusercontent.com/zeyangl/arc-plugins/eed8d790ae7ef191084
 [plugins.name]
 "en" = "Quota"
 "zh-Hans" = "配额"
+
+[[plugins]]
+abi_revision = 2
+id = "blackhole"
+sha256 = "9fe4c1400c36c1862209dc1768a25ef50750fb8a26527de4af5b74030771576a"
+target = "aarch64-apple-darwin"
+version = "0.1.13"
+wire_revision = 14
+url = "https://raw.githubusercontent.com/zeyangl/arc-plugins/a12d8ff6c4a34dbc508b7bcc54dc09d65a96e0b5/blackhole/blackhole-0.1.13-aarch64-apple-darwin.zip"
+
+[plugins.description]
+"en" = "Display an animated black hole with a glowing disk and lensed stars."
+"zh-Hans" = "显示带有发光吸积盘和引力透镜星空的动态黑洞。"
+
+[plugins.name]
+"en" = "Black Hole"
+"zh-Hans" = "黑洞"
+
+[[plugins]]
+abi_revision = 2
+id = "blackhole"
+sha256 = "d3e7187336e6cc248da65da4c60ac738aa0e3781b390de30743bac863b4b3c99"
+target = "x86_64-pc-windows-msvc"
+version = "0.1.13"
+wire_revision = 14
+url = "https://raw.githubusercontent.com/zeyangl/arc-plugins/a12d8ff6c4a34dbc508b7bcc54dc09d65a96e0b5/blackhole/blackhole-0.1.13-x86_64-pc-windows-msvc.zip"
+
+[plugins.description]
+"en" = "Display an animated black hole with a glowing disk and lensed stars."
+"zh-Hans" = "显示带有发光吸积盘和引力透镜星空的动态黑洞。"
+
+[plugins.name]
+"en" = "Black Hole"
+"zh-Hans" = "黑洞"
+
+[[plugins]]
+abi_revision = 2
+id = "git"
+sha256 = "6ce2a74984f6f19da32469c6904baab5970dd5601142ac4678a2f7155dbb59f3"
+target = "aarch64-apple-darwin"
+version = "0.1.14"
+wire_revision = 14
+url = "https://raw.githubusercontent.com/zeyangl/arc-plugins/a12d8ff6c4a34dbc508b7bcc54dc09d65a96e0b5/git/git-0.1.14-aarch64-apple-darwin.zip"
+
+[plugins.description]
+"en" = "View your workspace's branch, changed files, and diffs."
+"zh-Hans" = "查看工作区的分支、文件更改和差异。"
+
+[plugins.name]
+"en" = "Git"
+"zh-Hans" = "Git"
+
+[[plugins]]
+abi_revision = 2
+id = "git"
+sha256 = "05907d8a8e828f2445a0da280476a0074e6eea14d13891060fb7b7d9e643ef4f"
+target = "x86_64-pc-windows-msvc"
+version = "0.1.14"
+wire_revision = 14
+url = "https://raw.githubusercontent.com/zeyangl/arc-plugins/a12d8ff6c4a34dbc508b7bcc54dc09d65a96e0b5/git/git-0.1.14-x86_64-pc-windows-msvc.zip"
+
+[plugins.description]
+"en" = "View your workspace's branch, changed files, and diffs."
+"zh-Hans" = "查看工作区的分支、文件更改和差异。"
+
+[plugins.name]
+"en" = "Git"
+"zh-Hans" = "Git"
+
+[[plugins]]
+abi_revision = 2
+id = "history"
+sha256 = "24327945e78d8289eeb1615ead3b52409470e05383ebe13d4bec48973735e90f"
+target = "aarch64-apple-darwin"
+version = "0.1.12"
+wire_revision = 14
+url = "https://raw.githubusercontent.com/zeyangl/arc-plugins/a12d8ff6c4a34dbc508b7bcc54dc09d65a96e0b5/history/history-0.1.12-aarch64-apple-darwin.zip"
+
+[plugins.description]
+"en" = "Browse session history, inspect tool calls, and follow child sessions."
+"zh-Hans" = "浏览会话历史、查看工具调用并追踪子会话。"
+
+[plugins.name]
+"en" = "History"
+"zh-Hans" = "历史"
+
+[[plugins]]
+abi_revision = 2
+id = "history"
+sha256 = "b3e34d4b311239eb836b17f9b40ea9c55e054d87d0f50a55b8af00bf788cd995"
+target = "x86_64-pc-windows-msvc"
+version = "0.1.12"
+wire_revision = 14
+url = "https://raw.githubusercontent.com/zeyangl/arc-plugins/a12d8ff6c4a34dbc508b7bcc54dc09d65a96e0b5/history/history-0.1.12-x86_64-pc-windows-msvc.zip"
+
+[plugins.description]
+"en" = "Browse session history, inspect tool calls, and follow child sessions."
+"zh-Hans" = "浏览会话历史、查看工具调用并追踪子会话。"
+
+[plugins.name]
+"en" = "History"
+"zh-Hans" = "历史"
+
+[[plugins]]
+abi_revision = 2
+id = "matrix"
+sha256 = "0fbea266a3e8b5aa2789113e36c9b4d0cb5fd491ae09e28d1cc473b1a793d6fc"
+target = "aarch64-apple-darwin"
+version = "0.1.11"
+wire_revision = 14
+url = "https://raw.githubusercontent.com/zeyangl/arc-plugins/a12d8ff6c4a34dbc508b7bcc54dc09d65a96e0b5/matrix/matrix-0.1.11-aarch64-apple-darwin.zip"
+
+[plugins.description]
+"en" = "Display animated code rain behind your workspace."
+"zh-Hans" = "在工作区背景中显示动态代码雨。"
+
+[plugins.name]
+"en" = "Matrix"
+"zh-Hans" = "代码雨"
+
+[[plugins]]
+abi_revision = 2
+id = "matrix"
+sha256 = "a3a54a2105491fd1f9b635839f5e07f5c1232f0c380bd406fc11a01c4b78c418"
+target = "x86_64-pc-windows-msvc"
+version = "0.1.11"
+wire_revision = 14
+url = "https://raw.githubusercontent.com/zeyangl/arc-plugins/a12d8ff6c4a34dbc508b7bcc54dc09d65a96e0b5/matrix/matrix-0.1.11-x86_64-pc-windows-msvc.zip"
+
+[plugins.description]
+"en" = "Display animated code rain behind your workspace."
+"zh-Hans" = "在工作区背景中显示动态代码雨。"
+
+[plugins.name]
+"en" = "Matrix"
+"zh-Hans" = "代码雨"
+
+[[plugins]]
+abi_revision = 2
+id = "provider-status"
+sha256 = "e8194bc586d701f2e282a6ae0c88d2c8426652c3942195f4b2dac2bd2bbb9266"
+target = "aarch64-apple-darwin"
+version = "0.1.12"
+wire_revision = 14
+url = "https://raw.githubusercontent.com/zeyangl/arc-plugins/a12d8ff6c4a34dbc508b7bcc54dc09d65a96e0b5/provider-status/provider-status-0.1.12-aarch64-apple-darwin.zip"
+
+[plugins.description]
+"en" = "Monitor quota, balances, and reset times for supported model providers."
+"zh-Hans" = "监控受支持模型服务商的配额、余额和重置时间。"
+
+[plugins.name]
+"en" = "Quota"
+"zh-Hans" = "配额"
+
+[[plugins]]
+abi_revision = 2
+id = "provider-status"
+sha256 = "c09b1db076ce93fecb1e381a5944cc885d59bfb6f750e626c4b15eb9382333f1"
+target = "x86_64-pc-windows-msvc"
+version = "0.1.12"
+wire_revision = 14
+url = "https://raw.githubusercontent.com/zeyangl/arc-plugins/a12d8ff6c4a34dbc508b7bcc54dc09d65a96e0b5/provider-status/provider-status-0.1.12-x86_64-pc-windows-msvc.zip"
+
+[plugins.description]
+"en" = "Monitor quota, balances, and reset times for supported model providers."
+"zh-Hans" = "监控受支持模型服务商的配额、余额和重置时间。"
+
+[plugins.name]
+"en" = "Quota"
+"zh-Hans" = "配额"
