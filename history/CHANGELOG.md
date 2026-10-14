@@ -1,3 +1,10 @@
+## 0.1.12
+
+Source: 0be7151e63f8127cc09653d07049b4dab9632a7a
+
+ABI 2, wire 14. Targets: aarch64-apple-darwin, x86_64-pc-windows-msvc.
+Windows packages, when included, are unsigned and runtime-untested.
+
 # history
 
 ## 0.1.11
